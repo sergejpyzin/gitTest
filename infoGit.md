@@ -3,9 +3,12 @@
 1. Основные команды:
     > [**git init**](https://www.atlassian.com/ru/git/tutorials/setting-up-a-repository#:~:text=%D0%98%D0%BD%D0%B8%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%3A%20git%20init) - создание локального репозитор;
 
-    > [**git status**](https://www.atlassian.com/ru/git/tutorials/inspecting-a-repository#:~:text=tag%20git%20blame-,git%20status,-%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0) - получить информацию от git о его текущем состоянии;
+    > [**git status**](https://www.atlassian.com/ru/git/tutorials/inspecting-a-repository#:~:text=tag%20git%20blame-,git%20status,-%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0) - получить информацию от git о его текущем состоянии
 
-    > [**git add**](https://www.atlassian.com/ru/git/tutorials/saving-changes#:~:text=.-,git%20add,-%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0) - добавить файл или файлы к следующему комиту;
+    > [**git add**](https://www.atlassian.com/ru/git/tutorials/saving-changes#:~:text=.-,git%20add,-%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0) - добавляет изменение из рабочего каталога в раздел проиндексированных файлов. Она сообщает Git, что вы хотите включить изменения в конкретном файле в следующий коммит.
+        >> *Самые распроненные опции*:
+        >> * **git add <file>** - Проиндексировать все изменения в файле <file> для следующего коммита;
+        >> * **git add <directory>** - Проиндексировать все изменения в каталоге <directory> для следующего коммита;
 
     > [**git commit**](https://www.atlassian.com/ru/git/tutorials/saving-changes/git-commit#:~:text=Search-,Git%20commit,-git%20add%20git) - Коммит проиндексированного состояния кода. Эта команда откроет текстовый редактор с предложением ввести комментарий к коммиту. После ввода комментария сохраните файл и закройте текстовый редактор, чтобы выполнить коммит.
         >> *git commit* основные флаги:
