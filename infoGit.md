@@ -28,3 +28,5 @@
         >> **git checkout -master/-main** - вернуться к актуальному состоянию и продолжить работу;
 
     > [**git diff**](https://www.atlassian.com/ru/git/tutorials/saving-changes/git-diff#:~:text=Search-,git%20diff,-git%20add%20git) - увидеть разницу между текущим файлом и закоммиченным файлом.
+
+![~~**УСТАЛ!!**~~](https://cdn.fishki.net/upload/post/201505/11/1529621/6b6f26e0a7acb7eb0d2e24a2a29d8bdc.jpg "УСТАЛ")
