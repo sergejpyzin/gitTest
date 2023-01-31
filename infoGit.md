@@ -38,6 +38,7 @@
     >> **git branch -d <new_branch_name>** - удалить ветку с именем <new_branch_name>;
 
 > **git merge** - слияние веток;
+    >> **git merge -abort** - отмена слияния (если слияние было с конфликтом)
 
 > **git checkout <new_branch_name>** - перейти на ветку с именем <new_branch_name>
     >> **git checkout -b <new_branch_name>** - создать и перейти в ветку с именем <new_branch_name>
