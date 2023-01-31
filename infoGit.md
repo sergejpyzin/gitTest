@@ -34,3 +34,7 @@
 
 # Основные команды второго семинара
 
+> **git branch <new_branch_name>** - создать новую ветку с именем <new_branch_name>
+
+> **git checkout <new_branch_name>** - перейти на ветку с именем <new_branch_name>
+
