@@ -45,3 +45,6 @@
 > **git checkout <new_branch_name>** - перейти на ветку с именем <new_branch_name>
     >> **git checkout -b <new_branch_name>** - создать и перейти в ветку с именем <new_branch_name>
 
+![ЮМОР](fox.jpeg "JOKE")
+
+
