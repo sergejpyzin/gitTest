@@ -38,7 +38,8 @@
 
 # Основные команды второго семинара
 
-> **git branch <new_branch_name>** - создать новую ветку с именем <new_branch_name>;
+> **git branch** - просмотр списка веток репозитория;
+    >>**git branch <new_branch_name>** - создать новую ветку с именем <new_branch_name>;
     >> **git branch -d <new_branch_name>** - удалить ветку с именем <new_branch_name>;
 
 > **git merge** - слияние веток;
