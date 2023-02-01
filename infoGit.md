@@ -26,8 +26,10 @@
             >>> 5. **git log --graph** - Выводит историю с отображением веток и слияний;
             >>> 6. **git log --oneline** - Вывод истории в сокращенном виде; 
 
-    > **git checkout** - переход от одного коммита к другому;
+    > **git checkout <new_branch_name>** - перейти на ветку с именем <new_branch_name>
         >> **git checkout -master/-main** - вернуться к актуальному состоянию и продолжить работу;
+        >> **git checkout -b <new_branch_name>** - создать и перейти в ветку с именем <new_branch_name>
+        >> **git checkout <Hash_commit>** - переход от одного коммита к другому;         
 
     > [**git diff**](https://www.atlassian.com/ru/git/tutorials/saving-changes/git-diff#:~:text=Search-,git%20diff,-git%20add%20git) - увидеть разницу между текущим файлом и закоммиченным файлом.
 
@@ -42,8 +44,6 @@
 > **git merge** - слияние веток;
     >> **git merge -abort** - отмена слияния (если слияние было с конфликтом)
 
-> **git checkout <new_branch_name>** - перейти на ветку с именем <new_branch_name>
-    >> **git checkout -b <new_branch_name>** - создать и перейти в ветку с именем <new_branch_name>
 
 ![ЮМОР](fox.jpeg "JOKE")
 
